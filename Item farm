@@ -1,14 +1,3 @@
-local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local window = kavoUi.CreateLib("IN ANOTHER TIME","Ocean")
-
----Tabs
-
-Local Tab1 = window:NewTab("Main")
-local Tab1Section = Tab1:NewSection("Main")
-
----Buttons
-
-Tab1Section:NewButton("Item Farm","Take all items",function()
 while wait() do
   for i,v in pairs(game.Workspace:GetDescendants()) do
    if v:IsA("Tool") and v.Parent == Workspace and v.Handle then
