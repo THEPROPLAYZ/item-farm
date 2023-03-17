@@ -1,0 +1,41 @@
+local args = {
+    [1] = "Turtle",
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Shop"):WaitForChild("Quest"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Gucci",
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Shop"):WaitForChild("Quest"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Letter",
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Shop"):WaitForChild("Quest"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Turtle",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Shop"):WaitForChild("Quest"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Gucci",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Shop"):WaitForChild("Quest"):FireServer(unpack(args))
+
+local args = {
+    [1] = "Letter",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Shop"):WaitForChild("Quest"):FireServer(unpack(args))
